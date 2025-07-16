@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Award, Users, TrendingUp } from "lucide-react";
 import heroImage from "@/assets/hero-finance.jpg";
-
 const Hero = () => {
-  return (
-    <section id="home" className="relative min-h-screen flex items-center bg-gradient-to-br from-background via-secondary/20 to-accent/5 overflow-hidden">
+  return <section id="home" className="relative min-h-screen flex items-center bg-gradient-to-br from-background via-secondary/20 to-accent/5 overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
       <div className="absolute top-20 right-10 w-72 h-72 bg-gradient-primary rounded-full blur-3xl opacity-10 animate-float"></div>
@@ -69,27 +67,13 @@ const Hero = () => {
             </div>
 
             {/* Credentials */}
-            <div className="flex flex-wrap gap-4 pt-4">
-              <div className="trust-badge">
-                <span className="font-semibold">ACCA Finalist</span>
-              </div>
-              <div className="trust-badge">
-                <span className="font-semibold">CMA Finalist</span>
-              </div>
-              <div className="trust-badge">
-                <span className="font-semibold">GST Practitioner</span>
-              </div>
-            </div>
+            
           </div>
 
           {/* Hero Image */}
           <div className="relative animate-slide-in-right">
             <div className="relative z-10">
-              <img
-                src={heroImage}
-                alt="Professional Financial Services"
-                className="w-full rounded-2xl shadow-strong"
-              />
+              <img src={heroImage} alt="Professional Financial Services" className="w-full rounded-2xl shadow-strong" />
             </div>
             {/* Floating Elements */}
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-primary rounded-2xl blur-sm opacity-60 animate-float"></div>
@@ -97,8 +81,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
