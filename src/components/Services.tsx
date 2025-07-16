@@ -4,7 +4,7 @@ const Services = () => {
   const services = [
     {
       icon: Calculator,
-      title: "Accounting Services",
+      title: "Global Accounting Services",
       description: "Comprehensive bookkeeping, financial reporting, and accounting compliance for businesses of all sizes.",
       features: ["Bookkeeping & Record Maintenance", "Financial Statement Preparation", "Management Reporting", "Cash Flow Analysis"]
     },
