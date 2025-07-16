@@ -22,7 +22,7 @@ const Services = () => {
     },
     {
       icon: FileBarChart,
-      title: "Taxation Services",
+      title: "Global Taxation Services",
       description: "Expert tax planning and compliance services for individuals and businesses across multiple jurisdictions.",
       features: ["Tax Planning & Compliance", "GST Advisory", "International Taxation", "Tax Optimization"]
     }
