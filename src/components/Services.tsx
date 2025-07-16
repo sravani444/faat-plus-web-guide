@@ -16,7 +16,7 @@ const Services = () => {
     },
     {
       icon: Shield,
-      title: "Auditing Services",
+      title: "Global Auditing Services",
       description: "Independent audit services ensuring compliance with international auditing standards and regulations.",
       features: ["Statutory Audits", "Internal Audits", "Risk Assessment", "Compliance Audits"]
     },
