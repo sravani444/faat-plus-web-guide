@@ -1,0 +1,148 @@
+import { Award, BookOpen, Globe, Target, Users, Zap } from "lucide-react";
+
+const About = () => {
+  const founders = [
+    {
+      name: "Manchala Gowtham",
+      qualification: "ACCA Finalist",
+      specialization: "Accounting & Auditing",
+      experience: "3+ Years",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+    },
+    {
+      name: "Sainath Ailneni", 
+      qualification: "CMA Finalist, GST Practitioner",
+      specialization: "Finance & Taxation",
+      experience: "3+ Years",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+    }
+  ];
+
+  const values = [
+    {
+      icon: Target,
+      title: "Mission",
+      description: "To provide world-class financial services that empower businesses to achieve their goals while maintaining full compliance with global standards."
+    },
+    {
+      icon: Globe,
+      title: "Vision", 
+      description: "To become the most trusted global partner for finance, accounting, audit, and tax solutions, serving businesses across all continents."
+    },
+    {
+      icon: Award,
+      title: "Excellence",
+      description: "We maintain the highest standards of professional excellence through continuous learning and adherence to international best practices."
+    }
+  ];
+
+  const tools = [
+    "QuickBooks", "Xero", "SAP", "Tally", "Excel Advanced", "Power BI",
+    "GST Portal", "Income Tax Portal", "MCA Portal", "IFRS Standards"
+  ];
+
+  return (
+    <section id="about" className="section-padding bg-gradient-to-b from-secondary/20 to-background">
+      <div className="container-custom">
+        {/* Header */}
+        <div className="text-center space-y-4 mb-16">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold">
+            About <span className="text-gradient-primary">FAAT Plus</span>
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+            Founded by qualified professionals with global expertise, we deliver 
+            customized financial solutions compliant with international standards.
+          </p>
+        </div>
+
+        {/* Mission, Vision, Values */}
+        <div className="grid md:grid-cols-3 gap-8 mb-20">
+          {values.map((value, index) => (
+            <div
+              key={value.title}
+              className="text-center p-8 rounded-2xl bg-card border border-border hover:bg-gradient-to-br hover:from-primary/5 hover:to-accent/5 hover:border-primary/20 transition-all duration-300 group"
+              style={{ animationDelay: `${index * 100}ms` }}
+            >
+              <div className="w-16 h-16 bg-gradient-primary rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <value.icon className="w-8 h-8 text-primary-foreground" />
+              </div>
+              <h3 className="text-xl font-heading font-semibold mb-4 group-hover:text-primary transition-colors">
+                {value.title}
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                {value.description}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        {/* Founders Section */}
+        <div className="mb-20">
+          <div className="text-center space-y-4 mb-12">
+            <h3 className="text-2xl md:text-3xl font-heading font-bold">
+              Meet Our <span className="text-gradient-primary">Expert Team</span>
+            </h3>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Led by qualified professionals with international certifications 
+              and extensive experience in global financial standards.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {founders.map((founder, index) => (
+              <div
+                key={founder.name}
+                className="card-professional text-center group"
+                style={{ animationDelay: `${index * 200}ms` }}
+              >
+                <div className="relative w-32 h-32 mx-auto mb-6">
+                  <img
+                    src={founder.image}
+                    alt={founder.name}
+                    className="w-full h-full rounded-full object-cover border-4 border-primary/20 group-hover:border-primary/40 transition-colors duration-300"
+                  />
+                  <div className="absolute -bottom-2 -right-2 w-10 h-10 bg-gradient-accent rounded-full flex items-center justify-center">
+                    <Award className="w-5 h-5 text-accent-foreground" />
+                  </div>
+                </div>
+
+                <h4 className="text-xl font-heading font-semibold mb-2 group-hover:text-primary transition-colors">
+                  {founder.name}
+                </h4>
+                <div className="space-y-2 mb-4">
+                  <p className="text-accent font-medium">{founder.qualification}</p>
+                  <p className="text-muted-foreground">{founder.specialization}</p>
+                  <div className="trust-badge mx-auto">
+                    <Users className="w-4 h-4 text-primary" />
+                    <span>{founder.experience} Experience</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Tools & Technologies */}
+        <div className="text-center">
+          <h3 className="text-2xl md:text-3xl font-heading font-bold mb-8">
+            Tools & <span className="text-gradient-primary">Technologies</span>
+          </h3>
+          <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
+            {tools.map((tool, index) => (
+              <div
+                key={tool}
+                className="trust-badge hover:bg-primary/10 hover:border-primary/30 transition-all duration-300"
+                style={{ animationDelay: `${index * 50}ms` }}
+              >
+                <Zap className="w-4 h-4 text-accent" />
+                <span>{tool}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;
