@@ -15,6 +15,14 @@ const About = () => {
       specialization: "Finance & Taxation",
       experience: "3+ Years",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+    },
+    {
+      name: "Senior Financial Analyst",
+      qualification: "CA, CPA Certified",
+      specialization: "Financial Analysis & Reporting",
+      experience: "5+ Years",
+      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=400&fit=crop&crop=face",
+      isTeamIndicator: true
     }
   ];
 
@@ -88,7 +96,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {founders.map((founder, index) => (
               <div
                 key={founder.name}
@@ -117,6 +125,13 @@ const About = () => {
                     <span>{founder.experience} Experience</span>
                   </div>
                 </div>
+                
+                {founder.isTeamIndicator && (
+                  <div className="mt-4 p-3 bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg border border-primary/20">
+                    <p className="text-primary font-semibold text-sm">+ 30 more professionals</p>
+                    <p className="text-xs text-muted-foreground mt-1">Expert team members worldwide</p>
+                  </div>
+                )}
               </div>
             ))}
           </div>
