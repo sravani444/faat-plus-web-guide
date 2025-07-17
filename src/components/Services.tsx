@@ -10,7 +10,7 @@ const Services = () => {
     },
     {
       icon: TrendingUp,
-      title: "Finance & Consulting",
+      title: "Global Finance & Consulting",
       description: "Strategic financial consulting to optimize your business performance and growth opportunities.",
       features: ["Financial Planning & Analysis", "Budget Preparation", "Investment Advisory", "Business Valuation"]
     },
