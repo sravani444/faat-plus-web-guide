@@ -1,4 +1,4 @@
-import { Calculator, FileBarChart, Shield, TrendingUp, Globe, Users, BookOpen, Building } from "lucide-react";
+import { Calculator, FileBarChart, Shield, TrendingUp, Globe, Users, BookOpen, Building, UtensilsCrossed, Home } from "lucide-react";
 
 const Services = () => {
   const services = [
@@ -33,6 +33,8 @@ const Services = () => {
     { icon: Globe, name: "E-Commerce", description: "Multi-platform accounting and tax compliance" },
     { icon: Users, name: "IT & Technology", description: "Tech-focused financial consulting and compliance" },
     { icon: BookOpen, name: "Real Estate", description: "Property accounting and investment advisory" },
+    { icon: UtensilsCrossed, name: "Food & Beverage Industry", description: "Specialized accounting for restaurants and food businesses" },
+    { icon: Home, name: "Mortgage Industry", description: "Financial compliance and reporting for mortgage services" },
   ];
 
   return (
