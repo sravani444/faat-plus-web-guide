@@ -66,8 +66,18 @@ const Hero = () => {
               </Button>
             </div>
 
-            {/* Credentials */}
+            {/* Tagline */}
+            <div className="relative p-6 bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 rounded-2xl border border-primary/20 backdrop-blur-sm">
+              <div className="absolute inset-0 bg-gradient-to-r from-primary/5 to-accent/5 rounded-2xl"></div>
+              <div className="relative z-10 text-center">
+                <h3 className="text-xl md:text-2xl font-heading font-bold text-gradient-primary mb-2">
+                  "Balancing Books, Beyond Numbers – Building Financial Futures"
+                </h3>
+                <p className="text-sm text-muted-foreground">Our commitment to your financial success</p>
+              </div>
+            </div>
             
+            {/* Credentials */}
           </div>
 
           {/* Hero Image */}

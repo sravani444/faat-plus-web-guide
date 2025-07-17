@@ -4,8 +4,8 @@ const About = () => {
   const founders = [
     {
       name: "Manchala Gowtham",
-      qualification: "ACCA Finalist",
-      specialization: "Accounting & Auditing",
+      qualification: "ACCA Finalist - Global Consultant",
+      specialization: "Accounting, Finance, Audit",
       experience: "3+ Years",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
     },

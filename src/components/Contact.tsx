@@ -36,8 +36,8 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      content: "+91 98765 43210",
-      action: "tel:+919876543210"
+      content: "+91 85004 42696",
+      action: "tel:+918500442696"
     },
     {
       icon: MessageSquare,
@@ -260,7 +260,7 @@ const Contact = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
-              onClick={() => window.open('tel:+919876543210', '_blank')}
+              onClick={() => window.open('tel:+918500442696', '_blank')}
             >
               <Phone className="w-4 h-4 mr-2" />
               Call Now
