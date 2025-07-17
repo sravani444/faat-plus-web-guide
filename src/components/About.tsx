@@ -7,14 +7,14 @@ const About = () => {
       qualification: "ACCA Finalist - Global Consultant",
       specialization: "Accounting, Finance, Audit",
       experience: "3+ Years",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+      image: "/lovable-uploads/d0fb2b35-1c56-46b5-9d1a-da807309265b.png",
     },
     {
       name: "Sainath Ailneni", 
       qualification: "CMA Finalist, GST Practitioner",
       specialization: "Finance & Taxation",
       experience: "3+ Years",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+      image: "/lovable-uploads/33338f65-d85f-427e-b2d1-e995e57f0c66.png",
     },
     {
       name: "Senior Financial Analyst",
