@@ -70,7 +70,7 @@ const About = () => {
                 {value.title}
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                {value.description}
+                Deliver smart, ethical, and scalable financial solutions that turn complexity into clarity and drive long-term business growth.
               </p>
             </div>
           ))}
