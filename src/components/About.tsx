@@ -17,15 +17,6 @@ const About = () => {
       specialization: "Finance & Taxation",
       experience: "3+ Years",
       image: "/lovable-uploads/33338f65-d85f-427e-b2d1-e995e57f0c66.png",
-    },
-    {
-      name: "+ 30 more professionals",
-      qualification: "Expert team members worldwide",
-      title: "",
-      specialization: "",
-      experience: "",
-      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=400&fit=crop&crop=face",
-      isTeamIndicator: true
     }
   ];
 
@@ -131,13 +122,6 @@ const About = () => {
                     <span>{founder.experience} Experience</span>
                   </div>
                 </div>
-                
-                {founder.isTeamIndicator && (
-                  <div className="mt-4 p-3 bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg border border-primary/20">
-                    <p className="text-primary font-semibold text-sm">+ 30 more professionals</p>
-                    <p className="text-xs text-muted-foreground mt-1">Expert team members worldwide</p>
-                  </div>
-                )}
               </div>
             ))}
           </div>
