@@ -5,7 +5,7 @@ const WhyChooseUs = () => {
     {
       icon: Award,
       title: "Certified Professionals",
-      description: "ACCA and CMA qualified experts with international certifications ensuring world-class service delivery.",
+      description: "ACCA, CA, CMA and CPA qualified experts with international certifications ensuring world-class service delivery.",
       stat: "100%",
       statLabel: "Certified Team"
     },

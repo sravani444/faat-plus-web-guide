@@ -4,7 +4,6 @@ const Footer = () => {
   const quickLinks = [
     { name: "About Us", href: "#about" },
     { name: "Services", href: "#services" },
-    { name: "Industries", href: "#industries" },
     { name: "Why Choose Us", href: "#why-choose" },
     { name: "Testimonials", href: "#testimonials" },
     { name: "Contact", href: "#contact" }
@@ -19,14 +18,6 @@ const Footer = () => {
     "Business Consulting"
   ];
 
-  const industries = [
-    "Startups & SMEs",
-    "E-Commerce",
-    "IT & Technology",
-    "Real Estate",
-    "NGOs",
-    "Freelancers"
-  ];
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -58,8 +49,8 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-accent" />
-                <a href="mailto:hello@faatplus.com" className="text-sm hover:text-accent transition-colors">
-                  hello@faatplus.com
+                <a href="mailto:faatplus@gmail.com" className="text-sm hover:text-accent transition-colors">
+                  faatplus@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-3">
@@ -105,20 +96,6 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-
-          {/* Industries */}
-          <div>
-            <h4 className="text-lg font-heading font-semibold mb-6">Industries</h4>
-            <ul className="space-y-3">
-              {industries.map((industry) => (
-                <li key={industry}>
-                  <span className="text-sm text-primary-foreground/80 hover:text-accent transition-colors duration-200 cursor-pointer">
-                    {industry}
-                  </span>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
 
         {/* Social Links & Bottom Bar */}
@@ -155,7 +132,7 @@ const Footer = () => {
                 © 2024 FAAT Plus Global Solutions. All rights reserved.
               </p>
               <p className="text-xs text-primary-foreground/60 mt-1">
-                Certified Professionals | Global Standards | Trusted Solutions
+                ACCA, CA, CMA and CPA Certified Professionals | Global Standards | Trusted Solutions
               </p>
             </div>
           </div>

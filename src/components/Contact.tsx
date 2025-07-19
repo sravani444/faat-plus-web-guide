@@ -30,8 +30,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      content: "hello@faatplus.com",
-      action: "mailto:hello@faatplus.com"
+      content: "faatplus@gmail.com",
+      action: "mailto:faatplus@gmail.com"
     },
     {
       icon: Phone,
