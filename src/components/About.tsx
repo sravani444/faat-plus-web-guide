@@ -17,10 +17,10 @@ const About = () => {
       image: "/lovable-uploads/33338f65-d85f-427e-b2d1-e995e57f0c66.png",
     },
     {
-      name: "Senior Financial Analyst",
-      qualification: "CA, CPA Certified",
-      specialization: "Financial Analysis & Reporting",
-      experience: "5+ Years",
+      name: "+ 30 more professionals",
+      qualification: "Expert team members worldwide",
+      specialization: "",
+      experience: "",
       image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=400&fit=crop&crop=face",
       isTeamIndicator: true
     }
@@ -30,7 +30,7 @@ const About = () => {
     {
       icon: Target,
       title: "Mission",
-      description: "To provide world-class financial services that empower businesses to achieve their goals while maintaining full compliance with global standards."
+      description: "Deliver smart, ethical, and scalable financial solutions that turn complexity into clarity and drive long-term business growth."
     },
     {
       icon: Globe,
