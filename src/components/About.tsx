@@ -49,7 +49,14 @@ const About = () => {
 
   const tools = [
     "QuickBooks", "Xero", "SAP", "Tally", "Excel Advanced", "Power BI",
-    "GST Portal", "Income Tax Portal", "MCA Portal", "IFRS Standards"
+    "GST Portal", "Income Tax Portal", "MCA Portal", "IFRS Standards",
+    "Oracle Financials", "NetSuite", "Sage", "FreshBooks", "Wave Accounting",
+    "Zoho Books", "MYOB", "Peachtree", "TurboTax", "TaxAct",
+    "Bloomberg Terminal", "Reuters Eikon", "FactSet", "Morningstar Direct",
+    "Crystal Reports", "Tableau", "QlikView", "SQL Server", "Oracle Database",
+    "Python", "R Programming", "VBA", "Alteryx", "SPSS",
+    "Audit Command Language (ACL)", "IDEA Data Analysis", "TeamMate",
+    "CaseWare", "MindBridge", "AppZen", "DataSnipper"
   ];
 
   return (
