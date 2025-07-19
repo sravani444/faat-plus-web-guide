@@ -70,10 +70,10 @@ const Hero = () => {
             <div className="relative p-6 bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 rounded-2xl border border-primary/20 backdrop-blur-sm">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/5 to-accent/5 rounded-2xl"></div>
               <div className="relative z-10 text-center">
-                <h3 className="text-xl md:text-2xl font-heading font-bold text-gradient-primary mb-2">
+                <h3 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-gradient-primary mb-3">
                   "Balancing Books, Beyond Numbers – Building Financial Futures"
                 </h3>
-                <p className="text-sm text-muted-foreground">Our commitment to your financial success</p>
+                <p className="text-lg md:text-xl font-semibold text-primary">Our commitment to your financial success</p>
               </div>
             </div>
             
