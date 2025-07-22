@@ -105,7 +105,7 @@ const About = () => {
                   {founder.title && <p className="text-primary font-bold text-lg">{founder.title}</p>}
                   <p className="text-accent font-medium">{founder.qualification}</p>
                   <p className="text-muted-foreground">{founder.specialization}</p>
-                  
+                  {founder.experience && <p className="text-sm text-muted-foreground font-medium">{founder.experience} Experience</p>}
                 </div>
                 
                 {founder.isTeamIndicator}
