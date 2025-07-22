@@ -114,11 +114,9 @@ const About = () => {
                 style={{ animationDelay: `${index * 200}ms` }}
               >
                 <div className="relative w-32 h-32 mx-auto mb-6">
-                  <img
-                    src={founder.image}
-                    alt={founder.name}
-                    className="w-full h-full rounded-full object-cover border-4 border-primary/20 group-hover:border-primary/40 transition-colors duration-300"
-                  />
+                  <div className="w-full h-full rounded-full bg-gradient-primary flex items-center justify-center border-4 border-primary/20 group-hover:border-primary/40 transition-colors duration-300">
+                    <Users className="w-8 h-8 text-primary-foreground" />
+                  </div>
                   <div className="absolute -bottom-2 -right-2 w-10 h-10 bg-gradient-accent rounded-full flex items-center justify-center">
                     <Award className="w-5 h-5 text-accent-foreground" />
                   </div>
