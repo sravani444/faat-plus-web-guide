@@ -1,5 +1,8 @@
 import { Award, BookOpen, Globe, Target, Users, Zap } from "lucide-react";
+import { useState } from "react";
+
 const About = () => {
+  const [showMoreTools, setShowMoreTools] = useState(false);
   const founders = [{
     name: "Manchala Gowtham",
     qualification: "ACCA Finalist - Global Consultant",
@@ -37,6 +40,7 @@ const About = () => {
     description: "We maintain the highest standards of professional excellence through continuous learning and adherence to international best practices."
   }];
   const tools = ["QuickBooks", "Xero", "SAP", "Tally", "Excel Advanced", "Power BI", "GST Portal", "Income Tax Portal", "MCA Portal", "IFRS Standards", "Oracle Financials", "NetSuite"];
+  const additionalTools = ["Sage", "FreshBooks", "Wave Accounting", "Zoho Books", "MYOB", "Peachtree", "TurboTax", "TaxAct", "Bloomberg Terminal", "Reuters Eikon", "FactSet", "Morningstar Direct", "Crystal Reports", "Tableau", "QlikView", "SQL Server", "Oracle Database", "Python", "R Programming", "VBA", "Alteryx", "SPSS", "Audit Command Language (ACL)", "IDEA Data Analysis", "TeamMate", "CaseWare", "MindBridge", "AppZen", "DataSnipper"];
   return <section id="about" className="section-padding bg-gradient-to-b from-secondary/20 to-background">
       <div className="container-custom">
         {/* Header */}
@@ -121,8 +125,21 @@ const About = () => {
                 <Zap className="w-4 h-4 text-accent" />
                 <span>{tool}</span>
               </div>)}
-            <div className="trust-badge bg-gradient-primary text-primary-foreground hover:scale-105 transition-all duration-300 cursor-pointer">
-              <span className="font-semibold">+ Many More</span>
+            
+            {showMoreTools && additionalTools.map((tool, index) => <div key={tool} className="trust-badge hover:bg-primary/10 hover:border-primary/30 transition-all duration-300 animate-fade-in" style={{
+            animationDelay: `${(tools.length + index) * 50}ms`
+          }}>
+                <Zap className="w-4 h-4 text-accent" />
+                <span>{tool}</span>
+              </div>)}
+              
+            <div 
+              className="trust-badge bg-gradient-primary text-primary-foreground hover:scale-105 transition-all duration-300 cursor-pointer"
+              onClick={() => setShowMoreTools(!showMoreTools)}
+            >
+              <span className="font-semibold">
+                {showMoreTools ? "- Show Less" : "+ Many More"}
+              </span>
             </div>
           </div>
         </div>
