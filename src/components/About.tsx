@@ -13,7 +13,7 @@ const About = () => {
   }, {
     name: "Sainath Ailneni",
     qualification: "CMA Finalist, GST Practitioner",
-    title: "Co-Founder & CFO",
+    title: "Co-Founder",
     specialization: "Finance & Taxation",
     experience: "3+ Years",
     image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=400&h=400&fit=crop&crop=face"
