@@ -36,7 +36,7 @@ const About = () => {
     title: "Excellence",
     description: "We maintain the highest standards of professional excellence through continuous learning and adherence to international best practices."
   }];
-  const tools = ["QuickBooks", "Xero", "SAP", "Tally", "Excel Advanced", "Power BI", "GST Portal", "Income Tax Portal", "MCA Portal", "IFRS Standards", "Oracle Financials", "NetSuite", "Sage", "FreshBooks", "Wave Accounting", "Zoho Books", "MYOB", "Peachtree", "TurboTax", "TaxAct", "Bloomberg Terminal", "Reuters Eikon", "FactSet", "Morningstar Direct", "Crystal Reports", "Tableau", "QlikView", "SQL Server", "Oracle Database", "Python", "R Programming", "VBA", "Alteryx", "SPSS", "Audit Command Language (ACL)", "IDEA Data Analysis", "TeamMate", "CaseWare", "MindBridge", "AppZen", "DataSnipper"];
+  const tools = ["QuickBooks", "Xero", "SAP", "Tally", "Excel Advanced", "Power BI", "GST Portal", "Income Tax Portal", "MCA Portal", "IFRS Standards", "Oracle Financials", "NetSuite"];
   return <section id="about" className="section-padding bg-gradient-to-b from-secondary/20 to-background">
       <div className="container-custom">
         {/* Header */}
@@ -121,6 +121,9 @@ const About = () => {
                 <Zap className="w-4 h-4 text-accent" />
                 <span>{tool}</span>
               </div>)}
+            <div className="trust-badge bg-gradient-primary text-primary-foreground hover:scale-105 transition-all duration-300 cursor-pointer">
+              <span className="font-semibold">+ Many More</span>
+            </div>
           </div>
         </div>
       </div>
