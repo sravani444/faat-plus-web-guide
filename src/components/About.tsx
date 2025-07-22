@@ -6,14 +6,14 @@ const About = () => {
     title: "CEO, COO Founder",
     specialization: "Accounting, Finance, Audit",
     experience: "3+ Years",
-    image: "/lovable-uploads/d0fb2b35-1c56-46b5-9d1a-da807309265b.png"
+    image: "/lovable-uploads/523a4ed3-5ae0-494c-878d-187b6e9a9993.png"
   }, {
     name: "Sainath Ailneni",
     qualification: "CMA Finalist, GST Practitioner",
     title: "Co-Founder",
     specialization: "Finance & Taxation",
     experience: "3+ Years",
-    image: "/lovable-uploads/33338f65-d85f-427e-b2d1-e995e57f0c66.png"
+    image: "/lovable-uploads/ee3f1141-0aaf-4fdb-8407-b0813e506309.png"
   }, {
     name: "+ 30 more professionals",
     qualification: "Expert team members worldwide",
@@ -84,7 +84,11 @@ const About = () => {
             animationDelay: `${index * 200}ms`
           }}>
                 <div className="relative w-32 h-32 mx-auto mb-6">
-                  
+                  <img 
+                    src={founder.image} 
+                    alt={founder.name}
+                    className="w-full h-full object-cover rounded-full border-4 border-primary/20 group-hover:border-primary/40 transition-all duration-300"
+                  />
                   <div className="absolute -bottom-2 -right-2 w-10 h-10 bg-gradient-accent rounded-full flex items-center justify-center">
                     <Award className="w-5 h-5 text-accent-foreground" />
                   </div>
