@@ -16,7 +16,7 @@ const About = () => {
     title: "Co-Founder",
     specialization: "Finance & Taxation",
     experience: "3+ Years",
-    image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=400&h=400&fit=crop&crop=face"
+    image: "/lovable-uploads/161b9124-5322-4b28-a7c5-36c2a56fa8cb.png"
   }, {
     name: "+ 30 more professionals",
     qualification: "Expert team members worldwide",
