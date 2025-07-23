@@ -6,14 +6,14 @@ const About = () => {
   const founders = [{
     name: "Manchala Gowtham",
     qualification: "ACCA Finalist - Global Consultant",
-    title: "CEO, COO Founder",
+    title: "CEO, Co-Founder",
     specialization: "Accounting, Finance, Audit",
     experience: "3+ Years",
     image: "/lovable-uploads/523a4ed3-5ae0-494c-878d-187b6e9a9993.png"
   }, {
     name: "Sainath Ailneni",
     qualification: "CMA Finalist, GST Practitioner",
-    title: "CO-Founder",
+    title: "Co-Founder",
     specialization: "Finance & Taxation",
     experience: "3+ Years",
     image: "/lovable-uploads/161b9124-5322-4b28-a7c5-36c2a56fa8cb.png"
