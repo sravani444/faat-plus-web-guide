@@ -5,14 +5,14 @@ const About = () => {
   const [showMoreTools, setShowMoreTools] = useState(false);
   const founders = [{
     name: "Manchala Gowtham",
-    qualification: "ACCA Finalist - Global Consultant",
+    qualification: "Global Consultant",
     title: "CEO, Co-Founder",
     specialization: "Accounting, Finance, Audit",
     experience: "3+ Years",
     image: "/lovable-uploads/5dc392c4-f182-432a-895c-4ac498b609fa.png"
   }, {
     name: "Sainath Ailneni",
-    qualification: "CMA Finalist, GST Practitioner",
+    qualification: "GST Practitioner",
     title: "Co-Founder",
     specialization: "Finance & Taxation",
     experience: "3+ Years",
