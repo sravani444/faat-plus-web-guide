@@ -43,7 +43,7 @@ const Contact = () => {
       icon: MessageSquare,
       title: "WhatsApp",
       content: "Chat with us instantly",
-      action: "https://wa.me/919876543210"
+      action: "https://wa.me/918500442696"
     },
     {
       icon: MapPin,
@@ -268,7 +268,7 @@ const Contact = () => {
             <Button 
               variant="outline" 
               className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-              onClick={() => window.open('https://wa.me/919876543210', '_blank')}
+              onClick={() => window.open('https://wa.me/918500442696', '_blank')}
             >
               <MessageSquare className="w-4 h-4 mr-2" />
               WhatsApp
