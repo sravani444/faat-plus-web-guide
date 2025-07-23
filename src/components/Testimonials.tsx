@@ -6,7 +6,7 @@ const Testimonials = () => {
       name: "Sarah Johnson",
       company: "TechStart Solutions",
       role: "CEO",
-      content: "FAAT Plus transformed our financial operations. Their expertise in international standards helped us expand globally with confidence. The team's responsiveness and professionalism are exceptional.",
+      content: "FAAT Plus transformed our financial operations. Their expertise in international accounting standards gave us the confidence to expand globally. The team's responsiveness and professionalism are truly exceptional.",
       rating: 5,
       avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face"
     },
@@ -14,41 +14,73 @@ const Testimonials = () => {
       name: "Michael Chen",
       company: "E-Commerce Plus",
       role: "Founder",
-      content: "Outstanding service! Their GST compliance and tax optimization strategies saved us thousands. Manchala and Sainath's expertise is truly world-class. Highly recommend for any growing business.",
+      content: "Outstanding service! Their deep knowledge of GST compliance and tax optimization strategies saved us lakhs in operational costs. Manchala and Sainath's insights are world-class. Highly recommended for any business aiming to scale.",
       rating: 5,
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+    },
+    {
+      name: "Ritu Agarwal",
+      company: "EduGrow India Pvt. Ltd.",
+      role: "Finance Head",
+      content: "We've partnered with several consultants over the years, but none have matched FAAT Plus in dedication and accuracy. Their team helped us align with MCA regulations and streamline vendor payments.",
+      rating: 5,
+      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+    },
+    {
+      name: "Arjun Mehta",
+      company: "HealthKart Labs",
+      role: "Co-Founder",
+      content: "FAAT Plus has been instrumental in keeping our fast-paced startup financially sound. Their startup-specific accounting and funding compliance knowledge is invaluable.",
+      rating: 5,
+      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
     },
     {
       name: "Priya Sharma",
       company: "Real Estate Ventures",
       role: "CFO",
-      content: "Their audit services are thorough and professional. FAAT Plus helped us streamline our accounting processes and ensure full compliance. The personalized attention we receive is remarkable.",
+      content: "Their audit services are meticulous and reliable. FAAT Plus helped us automate processes, stay compliant, and improve reporting accuracy. Truly dependable professionals.",
       rating: 5,
-      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+      avatar: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=400&fit=crop&crop=face"
     },
     {
       name: "David Martinez",
       company: "Global Consulting",
       role: "Director",
-      content: "Working with FAAT Plus has been a game-changer. Their financial consulting helped optimize our cash flow and improve profitability. Professional, reliable, and results-driven.",
+      content: "Working with FAAT Plus has been a game-changer. Their financial consulting helped us optimize working capital and improve profitability. They've become a trusted extension of our leadership team.",
       rating: 5,
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
+      avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop&crop=face"
+    },
+    {
+      name: "Anil Deshmukh",
+      company: "Mahatech Systems",
+      role: "Managing Director",
+      content: "FAAT Plus guided us through a complex merger with full financial due diligence. Their understanding of cross-border accounting is top-notch and their integrity shines through.",
+      rating: 5,
+      avatar: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop&crop=face"
     },
     {
       name: "Anita Patel",
       company: "IT Solutions Hub",
       role: "Managing Partner",
-      content: "Exceptional service quality and attention to detail. Their team understands the complexities of IT business accounting. We've seen significant improvements in our financial reporting.",
+      content: "Their team understands the complexities of IT business accounting like few others. With their help, our quarterly reporting has become more transparent and investor-ready.",
       rating: 5,
-      avatar: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=400&fit=crop&crop=face"
+      avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=face"
     },
     {
-      name: "Robert Thompson",
-      company: "Startup Accelerator",
-      role: "Investment Manager",
-      content: "FAAT Plus provides invaluable support to our portfolio companies. Their expertise in startup accounting and compliance is unmatched. A trusted partner for financial success.",
+      name: "Karthik Reddy",
+      company: "Innovista Mobility",
+      role: "CEO",
+      content: "FAAT Plus is a go-to for any startup serious about compliance and financial hygiene. They supported our transition from seed to Series A seamlessly.",
       rating: 5,
-      avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop&crop=face"
+      avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&crop=face"
+    },
+    {
+      name: "Neha Kulkarni",
+      company: "Bharat Retail Networks",
+      role: "VP Finance",
+      content: "We've seen excellent results in internal financial health and audit readiness since working with FAAT Plus. Their personal attention and tech-driven approach stand out.",
+      rating: 5,
+      avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face"
     }
   ];
 
