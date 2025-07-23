@@ -9,7 +9,7 @@ const About = () => {
     title: "CEO, Co-Founder",
     specialization: "Accounting, Finance, Audit",
     experience: "3+ Years",
-    image: "/lovable-uploads/523a4ed3-5ae0-494c-878d-187b6e9a9993.png"
+    image: "/lovable-uploads/5dc392c4-f182-432a-895c-4ac498b609fa.png"
   }, {
     name: "Sainath Ailneni",
     qualification: "CMA Finalist, GST Practitioner",
