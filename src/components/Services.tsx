@@ -1,4 +1,4 @@
-import { Calculator, FileBarChart, Shield, TrendingUp } from "lucide-react";
+import { Calculator, FileBarChart, Globe, Shield, TrendingUp } from "lucide-react";
 
 const Services = () => {
   const services = [
@@ -25,6 +25,12 @@ const Services = () => {
       title: "Global Taxation Services",
       description: "Expert tax planning and compliance services for individuals and businesses across multiple jurisdictions.",
       features: ["Tax Planning & Compliance", "GST Advisory", "International Taxation", "Tax Optimization"]
+    },
+    {
+      icon: Globe,
+      title: "Digital Marketing & Outsourcing Services",
+      description: "At FAAT Plus, the \"Plus\" means more than Finance, Accounts, Audit & Tax—we empower your business with digital growth and cost-effective outsourcing solutions.",
+      features: ["Lower Costs, Higher Profits - Up to 50% cost reduction", "Skilled Professionals - Digital marketers, IT experts, support staff", "End-to-End Services - Marketing campaigns, voice processes, back-office support", "Scalable & Reliable - Flexible staffing that adapts to your needs"]
     }
   ];
 
