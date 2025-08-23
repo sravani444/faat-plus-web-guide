@@ -28,9 +28,15 @@ const Services = () => {
     },
     {
       icon: Globe,
-      title: "Digital Marketing & Outsourcing Services",
-      description: "At FAAT Plus, the \"Plus\" means more than Finance, Accounts, Audit & Tax—we empower your business with digital growth and cost-effective outsourcing solutions.",
-      features: ["Lower Costs, Higher Profits - Up to 50% cost reduction", "Skilled Professionals - Digital marketers, IT experts, support staff", "End-to-End Services - Marketing campaigns, voice processes, back-office support", "Scalable & Reliable - Flexible staffing that adapts to your needs"]
+      title: "📢 Digital Marketing",
+      description: "Grow your business with our end-to-end digital marketing solutions.",
+      features: ["SEO & SEM – Drive organic and paid traffic to boost visibility", "Social Media Marketing – Build your brand presence across major platforms", "Content & Email Marketing – Engage and nurture your customers effectively", "Analytics & Reporting – Data-driven strategies for measurable results"]
+    },
+    {
+      icon: Globe,
+      title: "🌍 Outsourcing Services",
+      description: "Streamline your operations with skilled offshore teams in India.",
+      features: ["Lower Costs, Higher Profits – Save up to 50% on operational expenses", "Trained Professionals – Accountants, auditors, IT & non-IT experts, support staff, and more", "End-to-End Support – From bookkeeping, audits, and tax compliance to voice processes and back-office operations", "Scalable & Reliable – Flexible solutions tailored to your company's needs"]
     }
   ];
 

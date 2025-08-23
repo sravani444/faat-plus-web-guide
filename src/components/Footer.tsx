@@ -106,7 +106,9 @@ const Footer = () => {
               <span className="text-sm text-primary-foreground/80">Follow Us:</span>
               <div className="flex gap-3">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/company/faat-plus/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 bg-primary-foreground/10 rounded-lg flex items-center justify-center hover:bg-accent hover:scale-110 transition-all duration-200"
                 >
                   <Linkedin className="w-5 h-5" />
