@@ -26,7 +26,6 @@ const Header = () => {
               alt="FAAT Plus Global Solutions" 
               className="h-10 w-auto"
             />
-            <span className="text-xl">🌍</span>
           </div>
 
           {/* Desktop Navigation */}
