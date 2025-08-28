@@ -19,12 +19,13 @@ const Header = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center">
+          <div className="flex items-center gap-2">
             <img 
               src="/lovable-uploads/2b0822a7-3f8a-4a8c-bd63-4248aded6d12.png" 
               alt="FAAT Plus Global Solutions" 
               className="h-10 w-auto"
             />
+            <span className="text-xl">🌍</span>
           </div>
 
           {/* Desktop Navigation */}
