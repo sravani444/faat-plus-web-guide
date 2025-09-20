@@ -18,6 +18,13 @@ const About = () => {
     experience: "3+ Years",
     image: "/lovable-uploads/161b9124-5322-4b28-a7c5-36c2a56fa8cb.png"
   }, {
+    name: "Revanth",
+    qualification: "Digital Marketing Specialist",
+    title: "Digital Marketing Lead & Video Editor",
+    specialization: "Digital Marketing & Video Production",
+    experience: "2+ Years",
+    image: "/lovable-uploads/revanth.jpeg"
+  }, {
     name: "+ 30 more professionals",
     qualification: "Expert team members worldwide",
     title: "",
