@@ -8,28 +8,24 @@ const About = () => {
     qualification: "Global Consultant",
     title: "CEO, Co-Founder",
     specialization: "Accounting, Finance, Audit",
-    experience: "3+ Years",
     image: "/lovable-uploads/5dc392c4-f182-432a-895c-4ac498b609fa.png"
   }, {
     name: "Sainath Ailneni",
     qualification: "GST Practitioner",
     title: "Co-Founder",
     specialization: "Finance & Taxation",
-    experience: "3+ Years",
     image: "/lovable-uploads/161b9124-5322-4b28-a7c5-36c2a56fa8cb.png"
   }, {
     name: "Revanth",
     qualification: "Digital Marketing Specialist",
     title: "Digital Marketing Lead & Video Editor",
     specialization: "Digital Marketing & Video Production",
-    experience: "2+ Years",
     image: "/lovable-uploads/revanth.jpeg"
   }, {
     name: "+ 30 more professionals",
     qualification: "Expert team members worldwide",
     title: "",
     specialization: "",
-    experience: "",
     image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=400&fit=crop&crop=face",
     isTeamIndicator: true
   }];
@@ -79,8 +75,8 @@ const About = () => {
         </div>
 
         {/* Founders Section */}
-        <div className="mb-20">
-          <div className="text-center space-y-4 mb-12">
+        <div className="mb-16">
+          <div className="text-center space-y-4 mb-10">
             <h3 className="text-2xl md:text-3xl font-heading font-bold">
               Meet Our <span className="text-gradient-primary">Expert Team</span>
             </h3>
@@ -94,7 +90,7 @@ const About = () => {
             {founders.map((founder, index) => <div key={founder.name} className="card-professional text-center group" style={{
             animationDelay: `${index * 200}ms`
           }}>
-                <div className="relative w-32 h-32 mx-auto mb-6">
+                <div className="relative w-32 h-32 mx-auto mb-4">
                   <img 
                     src={founder.image} 
                     alt={founder.name}
@@ -110,11 +106,10 @@ const About = () => {
                 <h4 className="text-xl font-heading font-semibold mb-2 group-hover:text-primary transition-colors">
                   {founder.name}
                 </h4>
-                <div className="space-y-2 mb-4">
+                <div className="space-y-1 mb-4">
                   {founder.title && <p className="text-primary font-bold text-lg">{founder.title}</p>}
                   <p className="text-accent font-medium">{founder.qualification}</p>
                   <p className="text-muted-foreground">{founder.specialization}</p>
-                  {founder.experience && <p className="text-sm text-muted-foreground font-medium">{founder.experience} Experience</p>}
                 </div>
                 
                 {founder.isTeamIndicator}
