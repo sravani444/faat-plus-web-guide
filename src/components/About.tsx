@@ -20,7 +20,7 @@ const About = () => {
     qualification: "Digital Marketing Specialist",
     title: "Digital Marketing Lead & Video Editor",
     specialization: "Digital Marketing & Video Production",
-    image: "/lovable-uploads/revanth.jpeg"
+    image: "/lovable-uploads/revanth-2.jpeg"
   }, {
     name: "+ 30 more professionals",
     qualification: "Expert team members worldwide",
