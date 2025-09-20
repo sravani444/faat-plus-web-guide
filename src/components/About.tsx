@@ -8,19 +8,19 @@ const About = () => {
     qualification: "Global Consultant",
     title: "CEO, Co-Founder",
     specialization: "Accounting, Finance, Audit",
-    image: "/lovable-uploads/5dc392c4-f182-432a-895c-4ac498b609fa.png"
+    image: "/lovable-uploads/gowtham-professional.png"
   }, {
     name: "Sainath Ailneni",
     qualification: "GST Practitioner",
     title: "Co-Founder",
     specialization: "Finance & Taxation",
-    image: "/lovable-uploads/161b9124-5322-4b28-a7c5-36c2a56fa8cb.png"
+    image: "/lovable-uploads/sainath-professional.png"
   }, {
     name: "Revanth",
     qualification: "Digital Marketing Specialist",
     title: "Digital Marketing Lead & Video Editor",
     specialization: "Digital Marketing & Video Production",
-    image: "/lovable-uploads/revanth-2.jpeg"
+    image: "/lovable-uploads/revanth-professional.jpeg"
   }, {
     name: "+ 30 more professionals",
     qualification: "Expert team members worldwide",
