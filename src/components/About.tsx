@@ -95,7 +95,7 @@ const About = () => {
                     src={founder.image} 
                     alt={founder.name}
                     className={`w-full h-full object-cover rounded-full border-4 border-primary/20 group-hover:border-primary/40 transition-all duration-300 ${
-                      founder.name === "Manchala Gowtham" ? "object-[center_20%]" : "object-top"
+                      founder.name === "Manchala Gowtham" || founder.name === "Sainath Ailneni" || founder.name === "Revanth" ? "object-[center_20%]" : "object-top"
                     }`}
                   />
                   <div className="absolute -bottom-2 -right-2 w-10 h-10 bg-gradient-accent rounded-full flex items-center justify-center">
