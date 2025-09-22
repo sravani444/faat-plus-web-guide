@@ -6,7 +6,7 @@ const About = () => {
   const founders = [{
     name: "Manchala Gowtham",
     qualification: "Global Consultant",
-    title: "CEO, Co-Founder",
+    title: "CEO, Founder",
     specialization: "Accounting, Finance, Audit",
     image: "/lovable-uploads/gowtham-professional.png"
   }, {
@@ -16,7 +16,7 @@ const About = () => {
     specialization: "Finance & Taxation",
     image: "/lovable-uploads/sainath-professional.png"
   }, {
-    name: "Revanth",
+    name: "Revanth konagalla",
     qualification: "Digital Marketing Specialist",
     title: "Digital Marketing Lead & Video Editor",
     specialization: "Digital Marketing & Video Production",
